@@ -169,7 +169,7 @@ public class FileRepository implements Repository {
                     pl.remove(RolapConnectionProperties.JdbcUser.name());
                     pl.remove(RolapConnectionProperties.JdbcPassword.name());
 
-                    if (pl.toString().equals(databaseName)) {
+                    if (((pl.toString()).trim()).equals((databaseName.trim()))) {
                         datasourceInfo = infos;
                     }
                 }
