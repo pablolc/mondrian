@@ -21,11 +21,18 @@
     <driver.version.minor>${project.version.minor}</driver.version.minor>
     <vendor>Pentaho</vendor>
     <driver.version.major>${project.version.major}</driver.version.major>
+
+    <version.commons.codec>1.14</version.commons.codec>
   </properties>
   <dependencies>
     <dependency>
       <groupId>xml-apis</groupId>
       <artifactId>xml-apis</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>${version.commons.codec}</version>
     </dependency>
     <dependency>
       <groupId>commons-collections</groupId>
